@@ -1,0 +1,28 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Times New Roman', serif;
+    background-color: black;
+}
+
+
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+
+th, td {
+    border: 1px white;
+    border-style: ridge;
+}
