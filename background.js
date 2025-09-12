@@ -1,5 +1,5 @@
 
-const backgrounds = ["media/opt.mp4", "media/qake.mp4", "media/cat.mp4"];
+const backgrounds = ["media/cat.mp4", "media/cat.mp4", "media/cat.mp4"];
 
 function randomBackground() {
     const background = backgrounds[Math.floor(Math.random() * backgrounds.length)];
@@ -15,4 +15,5 @@ function randomBackground() {
 
 
 randomBackground();
+
 
